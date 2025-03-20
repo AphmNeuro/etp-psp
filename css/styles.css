@@ -9,7 +9,7 @@ body {
 
 /* === En-tête (bannière) avec fond noir === */
 .masthead {
-    background-color: black; /* Fond noir */
+    background-color: blue; /* Fond bleu */
     color: white; /* Texte en blanc */
     padding: 50px 20px;
     text-align: center;
