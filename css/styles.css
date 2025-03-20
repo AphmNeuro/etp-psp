@@ -63,10 +63,14 @@ body {
     color: white;
 }
 
-/* === Style pour afficher la plaquette en grand === */
-.plaquette-container {
+/* === Style pour afficher les plaquettes en colonne === */
+.plaquettes-container {
     text-align: center;
-    margin: 20px 20px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Espacement entre les images */
 }
 
 .plaquette-img {
